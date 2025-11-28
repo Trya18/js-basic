@@ -153,3 +153,4 @@ console.log(Math.random());
 //math random --> menghasilkan angka acak
 console.log(Math.floor(Math.random() * 100) + 1);
 
+console.log("hello");
