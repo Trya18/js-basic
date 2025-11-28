@@ -3,9 +3,9 @@
 // ○ Example : length = 5, width = 3
 // ○ Output : 15
 
-const Length = 5;
-const Width = 3;
-const area = (Length * Width)
+const length: number = 5;
+const width: number = 3;
+const area = (length * width);
 console.log(area);
 
 // --------Soal 2--------
@@ -13,9 +13,9 @@ console.log(area);
 // ○ Example : length = 5, width = 3
 // ○ Output : 16
 
-const length2= 5;
-const Width2 = 3;
-const area2 = (2*(length2+Width2))
+const length2: number = 5;
+const width2: number = 3;
+const area2 = (2*(length2+width2))
 console.log(area2);
 
 // ----Soal 3--------
@@ -27,20 +27,16 @@ console.log(area2);
 const Radius: Number = 5;
 
 // Diameter
-const r = 5;
-console.log(2*r);
+const R: number = 5;
+const D: number = R*2
+console.log(D);
 
 // circumference
-const phi = Math.PI
-const Diameter = 10;
-console.log(phi);
-console.log(phi*Diameter);
+const circumference: number = (Math.PI*D)
+console.log(circumference);
 
 // Area
-const r1 = 5
-const phi2 = 3.14
-const Area2 = (phi2*r1**2)
-console.log(Area2);
+console.log(Math.PI*R**2);
 
 
 
